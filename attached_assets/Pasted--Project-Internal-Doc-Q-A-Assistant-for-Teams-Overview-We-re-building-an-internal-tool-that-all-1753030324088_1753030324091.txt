@@ -1,0 +1,86 @@
+🛠️ Project: Internal Doc Q&A Assistant for Teams
+Overview:
+We're building an internal tool that allows team members to query company documentation using natural language. Instead of manually digging through PDFs, handbooks, or lengthy onboarding docs, users can now simply ask questions and get instant, relevant answers.
+
+Core Features:
+
+📄 Document Upload: Upload internal docs in formats like PDF or DOCX.
+
+🔍 AI-Powered Search: Ask questions in plain English; the assistant pulls answers from uploaded content.
+
+🧠 LLM Integration: Uses OpenAI’s GPT for semantic understanding of queries and context.
+
+🗂️ Chunking & Embeddings: Documents are broken into chunks and embedded using vector databases (like Pinecone/Chroma) for efficient retrieval.
+
+🖥️ Frontend: Clean UI with chat interface, built in React.js.
+
+⚙️ Backend: Node.js/Express server managing uploads, processing, and LLM interaction.
+
+🌐 Deployment: Hosted using platforms like Vercel + Render.
+
+Use Cases:
+
+Smooth onboarding for new employees
+
+Quick access to HR or technical documentation
+
+Reducing dependency on internal Slack threads or email queries
+
+📢 Caption for Day 2 Post:
+🚀 Day 2 of building our Internal Doc Q&A Assistant
+Today we refined the project scope and laid down the architecture!
+Imagine being able to ask, “What’s our leave policy?” and instantly getting the answer from your HR doc – no scrolling, no Ctrl+F.
+
+Tomorrow, we dive into embedding logic and frontend UI.
+
+#HackathonBuild #OpenAI #AIinDocs #TeamTool #Day2Progress
+
+Let me know if you want a graphic idea or code snippet to include.
+
+
+
+
+
+
+
+
+You said:
+yes iam working on the second project
+
+
+ChatGPT said:
+Got it! You're working on the Internal Documentation Q&A AI Agent project for Day 2. Here's a proper project description you can use for today's hackathon post:
+
+🚀 Day 2 – Project Progress Update: Internal Documentation Q&A AI Agent 🧠💬
+
+We’re building an AI Agent that makes internal team documentation instantly searchable and understandable, saving hours of back-and-forth and improving team productivity.
+
+🔍 What it does:
+Our AI agent allows team members to ask natural-language questions about internal docs (like onboarding guides, policy PDFs, wikis, etc.) and get instant, accurate answers — just like chatting with a smart teammate who knows all your documentation!
+
+🛠️ Key Features:
+
+Upload internal docs in PDF or text format
+
+Ask any question in natural language
+
+Get instant answers sourced directly from your documents
+
+Context-aware responses using RAG (Retrieval-Augmented Generation)
+
+Easy-to-use UI with smooth backend logic
+
+💡 Tech Stack:
+
+Frontend: React.js + Tailwind CSS
+
+Backend: Node.js + Express
+
+AI: OpenAI GPT-4 + LangChain + Pinecone/Chroma for vector search
+
+File Handling: PDF/Text Parsing with LangChain
+
+Deployment: Vercel + Render
+
+👥 Why it matters:
+In fast-moving teams, finding the right info from docs can be a pain. Our AI Agent bridges that gap — making information retrieval seamless, natural, and smart.
